@@ -23,13 +23,14 @@
 - selenium==3.11.0
 
 ### How to use
-1.
+![PNG Capture damar - SINDOnews test](capture/1.png)
+![PNG Capture damar - SINDOnews test](capture/2.png)
+![PNG Capture damar - SINDOnews test](capture/3.png)
+![PNG Capture damar - SINDOnews test](capture/4.png)
+![PNG Capture damar - SINDOnews test](capture/5.png)
 
 ### Arguments
-- $: python automationpractice.py [email] [password] [url] [browser] > report.html
+- $: python test.py
 
 ### GIF
-![GIF Capture damar - SINDOnews test](readme/gifimage.gif)
-
-### Report HTML
-![Image Report damar - SaleStock test](readme/reportimage.png)
+![GIF Capture damar - SINDOnews test](capture/6.gif)

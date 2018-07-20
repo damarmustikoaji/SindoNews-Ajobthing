@@ -72,16 +72,14 @@ class AndroidTests(unittest.TestCase):
         except Exception as e:
             raise
 
-    def _3_sidebarmenu(self):
+    def test_3_sidebarmenu(self):
         "SindoNews Apps - Sidebar Menu"
         try:
             time.sleep(5)
             button = self.driver.find_element_by_accessibility_id('open')
             button.click()
             time.sleep(5)
-            action = TouchAction(self.driver)
-            el = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.NAME, "Soccer")))
-            action.press(el).move_to(x=10, y=-500).release().perform()
+            self.driver.save_screenshot("capture/sidebarmenu.png")
             time.sleep(5)
         except Exception as e:
             raise
